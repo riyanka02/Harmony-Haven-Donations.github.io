@@ -1,0 +1,331 @@
+.nav
+{
+    background-color: rgba(0, 0, 0, 0.856);
+    z-index: 9;
+    padding-left: 50px;
+    padding-right: 50px;
+    display:flex;
+    box-shadow: 0px 3px 65px 0px rgba(0, 0, 0, 0.856);
+}
+.nav_top
+{
+    position:fixed;
+    top:0;
+    right:0;
+    left:0;
+}
+.logo
+{
+    float:left;
+    width: 50%;
+}
+.logo img
+{
+    padding: 8px;
+    width:30%;
+    margin-left:10%;
+}
+.nav_side
+{
+    float:right;
+    width:45%;
+    margin-top: 20px;
+}
+.nav_side a
+{
+    text-decoration: none;
+    margin-right: 10px;
+    margin-left:50px;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-left: 15px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    
+}
+.nav_side a:hover
+{
+    color: rgb(237, 255, 79);
+    
+}
+
+.donate
+{
+    font-family: 'Trebuchet MS', sans-serif;
+    background-image: url("donation.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    margin-top:-1.5%;
+    color: white;
+    text-align: center;
+}
+.donate .donate_container
+{
+    background-color: black;
+    opacity:80%;
+    text-align: center;
+    margin: 0% 20% 0% 20%;
+    padding-top:10%;
+    padding-bottom: 10%;
+}
+.donate .donate_container h1
+{
+    color: rgb(243, 255, 79);
+    line-height: 100px;
+}
+.donate .donate_container p
+{
+    font-size: large;
+    width:80%;
+    text-align: center;
+    padding-left:20%;
+}
+.donate .donate_container .second
+{
+    padding-bottom: 10%;
+}
+.donate .side_btn a
+{
+    text-decoration: none;
+    font-size: 120%;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Trebuchet MS', sans-serif;
+    border: 2px double whitesmoke;
+    transition: 0.5s;
+}
+.donate .side_btn a:hover
+{
+    background-color: white;
+    color: black;
+    font-weight:bolder;
+    border: none;
+    border: 4px solid rgb(0, 119, 128);
+    transition:0.5s;
+}
+footer
+{
+    background-color: black;
+    padding:50px;
+    display: inline-block;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+footer .aimg
+{
+    margin-top:21%;
+}
+footer .pages
+{
+    width:25%;
+    text-align: center;
+    display: inline-block;
+}
+
+footer .pages p
+{
+    padding-top: 5%;
+    text-align: left;
+    color:rgba(255, 226, 243, 0.808);
+    width:90%;
+    padding-left:12%;
+}
+footer .pages a
+{
+    text-decoration: none;
+    margin:10px;
+    color: rgba(255, 226, 243, 0.808);
+    font-size: 30px;
+}
+footer .pages a:hover
+{
+    color:white;
+}
+footer .doc
+{
+    width:25%;
+    text-align: center;
+    display: inline-block;
+    padding-bottom: 5%;
+}
+footer .doc h3
+{
+    color: rgb(255, 226, 243);
+    font-size: 30px;
+    padding: 5px;
+    font-weight: bold;
+    line-height: 130px;
+}
+footer .doc a
+{
+    display: block;
+    text-decoration: none;
+    margin:10px;
+    color: rgba(255, 226, 243, 0.808);
+    font-size: 25px;
+}
+footer .doc a:hover
+{
+    color:white;
+}
+footer .social
+{
+    width:25%;
+    text-align: center;
+    display: inline-block;
+}
+footer .social h3
+{
+    color: rgb(255, 226, 243);
+    font-size: 30px;
+    padding: 5px;
+    font-weight: bold;
+    line-height: 130px;
+}
+footer .contact
+{
+    width:20%;
+    text-align: center;
+    text-align: left;
+}
+footer .contact h3
+{
+    color: rgb(255, 226, 243);
+    font-size: 30px;
+    padding: 5px;
+    font-weight: bold;
+    line-height: 130px;
+}
+footer .social p
+{
+    padding-top: 5%;
+    text-align: left;
+    color:rgba(255, 226, 243, 0.808);
+    width:90%;
+    padding-left:12%;
+    font-size: large;
+    margin-bottom: 18%;
+}
+.side .right .side_btn
+{
+    margin-top:4%;
+}
+footer .side_btn a
+{
+    text-decoration: none;
+    font-size: 100%;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Trebuchet MS', sans-serif;
+    border: 2px double whitesmoke;
+    transition: 0.5s;
+}
+footer .side_btn a:hover
+{
+    background-color: rgb(245, 76, 25);
+    color: black;
+    font-weight:bolder;
+    border: none;
+    border: 4px solid rgb(0, 113, 128);
+    transition:0.5s;
+}
+footer .contact
+{
+    display: inline-block;
+}
+footer .contact a
+{
+    display: block;
+    font-size: 20px;
+    line-height: 38px;
+    text-decoration: none;;
+    color:rgba(247, 193, 224, 0.904);
+    margin:10px;
+}
+footer .contact a:hover
+{
+    color:white;
+}
+footer p
+{
+    color:rgba(250, 4, 144, 0.726);
+    text-align: center;
+    font-size: 110%;
+}
+.contact_container {
+    padding: 100px;
+    font-family: 'Trebuchet MS', sans-serif;
+    background-image: url("contact0.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 180vh;
+    margin-top: -1.5%; /* Adjust as needed */
+    color: yellow;
+     /* Enables flexbox layout */
+    justify-content: center; /* Centers the content horizontally */
+    align-items: center;
+    display: flex;
+    flex-direction: column; 
+    padding-top: 100px;
+}
+
+.contact_container .g_map {
+    border: 10px solid white;
+    margin-top: 20px; 
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.contact_container h2
+{
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    font-size: 33px;
+    text-align: center;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.contact_container .contact_content
+{
+    padding:20px;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+.contact_container .contact_content p
+{
+    padding:15px;
+    font-size: 20px;
+    line-height: 25px;
+}
+.about-content{
+    color: magenta;
+    text-align: center;
+}
+.row {
+    display: flex;
+    box-shadow: 10px 10px;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+
+
+.p-5.mb-4.bg-body-tertiary.rounded-3 .container-fluid p {
+    color: black; /* Set paragraph text color to black */
+    text-align: center; /* Center align paragraph text */
+}
+
